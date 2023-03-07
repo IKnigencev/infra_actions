@@ -65,7 +65,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+        key: 'b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
 NhAAAAAwEAAQAAAYEAxU6d7X1pnMl38llkWpL4x1wH/VZ+T1IxMeK9u3oRlc9cYZOKXK0Z
 1c2DEH8MVXrcKLvq0ZDcgoEI9ySlPrz5i9s8L8ECTj9OTEUF/VBL/6XvmgXbY9tBNWxNWN
 zrDurQKQPyjKjw5TQlnRjKu4ft59kINTwc1EJk/6cCmyksxF8dEn3Zk1qiptgH6oiW8BTI
@@ -100,7 +100,7 @@ S8GAKyngSI5LuimNcTp623ERGorIBpAAAAwQDLWzdqL0OBNMqtRC75SWxxGbiwop1y2RI8
 o1WK+QRF/TlzywOHvEf/3ZSK9j9dJZjAfVqAbmhNqCEMdo5cqR2J/26Pc3ycZoPgg+Mpqa
 tHkgDeT7DX3Usz3nw9c47Fn1aR0TqJEWGaDAjTnbyTL0Fl0WJCh/DJmTMMQXMYZ0As2frN
 6c+uRYpEHa+wlWSr7mLhsMf3PjSPYb4wRk4sauhPXyRSp2b3agLTCtrGuUKBXcW6sZ+yzs
-juM5NXEmx7sVEAAAALaXZhbkBmZWRvcmE=
+juM5NXEmx7sVEAAAALaXZhbkBmZWRvcmE='
         script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull knigencev/infra_actions
