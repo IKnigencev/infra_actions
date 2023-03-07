@@ -50,14 +50,14 @@ jobs:
         # Запуск скрипта авторизации на Docker Hub
         uses: docker/login-action@v1 
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: Knigencev
+          password: Basdockerhubketbal2003
       - name: Push to Docker Hub
         # Пуш образа в Docker Hub 
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: knigencev/infra_actions:v1
+          tags: knigencev/infra_actions:latest
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
